@@ -14,7 +14,7 @@ import java.util.List;
  * Created by Catkin
  * 2020-06-25 16:04
  */
-@FeignClient(name = "product")
+//@FeignClient(name = "product")
 public interface ProductClient {
 
     @GetMapping("/msg")

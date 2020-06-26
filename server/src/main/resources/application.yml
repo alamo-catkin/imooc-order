@@ -11,7 +11,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
-# 修改Ribbon负载均衡器选择规则(默认轮循)
+# 淇敼Ribbon璐熻浇鍧囪　鍣ㄩ�夋嫨瑙勫垯(榛樿杞惊)
 PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
